@@ -1031,7 +1031,7 @@ async def add_user_site(user_id, site):
 async def test_proxy(proxy):
     """Test a single proxy - SOCKS4/SOCKS5/HTTP/HTTPS"""
     test_card = "5154623245618097|03|2032|156"
-    test_site = "https://riverbendhomedev.myshopify.com"
+    test_site = "https://st-marks-episcopal-church-school.myshopify.com"
     
     try:
         api_url = random.choice(SHOPIFY_APIS)
